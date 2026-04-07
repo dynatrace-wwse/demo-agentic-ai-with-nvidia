@@ -4,6 +4,6 @@ source .devcontainer/util/source_framework.sh
 
 printInfoSection "Running integration Tests for $RepositoryName"
 
-assertRunningContainer dynatrace-otel-collector
+assertRunningContainer otel-collector
 
 assertRunningHttp 8501
